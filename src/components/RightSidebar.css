@@ -1,0 +1,23 @@
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFEBEB; /* 더 연한 핑크색 배경 */
+  }
+  
+  .right-sidebar {
+    border-left: 1px solid #2C0714;
+  }
+  
+  .ad {
+    background-color: #FFF7FA; /* 광고 배경색 변경 */
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2C0714;
+    color: #2C0714; /* 글자색 변경 */
+  }
+  

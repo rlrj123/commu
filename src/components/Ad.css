@@ -1,0 +1,12 @@
+.ad {
+  background-color: #FFF7FA; /* 광고 배경색 */
+  padding: 20px;
+  text-align: center;
+  height: 500px; /* 광고 박스의 높이를 500px로 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2C0714;
+  color: #2C0714; /* 글자색 */
+  box-sizing: border-box; /* 패딩과 보더를 포함한 크기 조절 */
+}

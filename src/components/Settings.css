@@ -1,0 +1,47 @@
+.settings {
+    padding: 20px;
+    background-color: #FFE7F0; /* 연한 핑크색 배경 */
+    border: 1px solid #2C0714;
+    color: #2C0714;
+    margin-top: 20px;
+  }
+  
+  .settings h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .settings ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .settings li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #2C0714;
+  }
+  
+  .toggle-button {
+    background-color: #FFB6CF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #2C0714;
+    border-radius: 15px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .toggle-button.on {
+    background-color: #FFB6CF;
+    color: #2C0714;
+  }
+  
+  .toggle-button.off {
+    background-color: #FFF7FA;
+    color: #FFB6CF;
+  }
+  

@@ -1,0 +1,44 @@
+.my-posts {
+  padding: 20px;
+  background-color: #FFF7FA;
+  border: 1px solid #2C0714;
+  margin-top: 20px;
+}
+
+.post-title {
+  font-weight: bold;
+  color: #2C0714;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #2C0714;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-date {
+  margin-left: auto;
+  color: #2C0714; /* 글자색 */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.save-button,
+.delete-button {
+  padding: 10px 20px;
+  border: 1px solid #2C0714;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #FFB6CF;
+  color: #2C0714;
+}

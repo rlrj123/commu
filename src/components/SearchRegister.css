@@ -1,0 +1,38 @@
+.search-register {
+  padding: 20px;
+  background-color: #FFF7FA; /* 배경색 추가 */
+  border: 1px solid #2C0714;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #2C0714;
+  border-radius: 4px;
+}
+
+.content-input {
+  width: calc(100% - 20px);
+  height: 100px; /* 높이 조정 */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #2C0714;
+  border-radius: 4px;
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save-button {
+  padding: 10px 20px;
+  border: 1px solid #2C0714;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #FFB6CF;
+  color: #2C0714;
+}

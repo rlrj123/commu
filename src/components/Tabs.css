@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFE7F0; /* 기본 탭 배경색 */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #2C0714;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid #2C0714;
+  background-color: #FFE7F0; /* 기본 탭 배경색 */
+  color: #2C0714; /* 글자색 변경 */
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+.tab.active {
+  background-color: #FFBED4; /* 활성 탭 배경색 변경 */
+  color: #2C0714; /* 글자색 변경 */
+}

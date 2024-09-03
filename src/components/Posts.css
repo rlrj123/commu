@@ -1,0 +1,19 @@
+.posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #2C0714;
+}
+
+.posts li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #2C0714;
+  color: #2C0714; /* 글자색 변경 */
+}
+
+.posts .post-title {
+  font-weight: bold;
+  color: #2C0714; /* 글자색 변경 */
+}

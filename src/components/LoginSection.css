@@ -1,0 +1,64 @@
+/* 로그인 섹션 설정 */
+.login-section {
+  border: 1px solid #2C0714;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #FFE6E6; /* 연한 핑크색 배경 */
+  color: #2C0714; /* 글자색 변경 */
+}
+
+.input-box {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #2C0714;
+  border-radius: 4px;
+}
+
+.input-box::placeholder {
+  color: #FFCCCC; /* 연한 핑크색 placeholder */
+}
+
+.logpw-box {
+  display: flex;
+  gap: 0; /* 간격을 없앰 */
+}
+
+.login-button {
+  flex: 1;
+  padding: 10px 0;
+  border: 1px solid #2C0714;
+  border-radius: 0; /* 버튼의 모서리를 둥글지 않게 함 */
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #FFB6CF; /* 로그인 및 회원가입 버튼 배경색 변경 */
+  color: #2C0714; /* 글자색 변경 */
+  text-align: center;
+}
+
+.login-button:first-child {
+  border-right: none; /* 왼쪽 버튼의 오른쪽 테두리를 없앰 */
+}
+
+.login-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #2C0714;
+  padding-top: 10px;
+}
+
+.login-links .link-button {
+  background: none;
+  border: none;
+  color: #2C0714; /* 글자색 변경 */
+  text-align: left; /* 텍스트를 왼쪽으로 정렬 */
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+  white-space: nowrap; /* 텍스트가 한 줄에 유지되도록 */
+}
